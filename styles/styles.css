@@ -1,0 +1,67 @@
+h1 {
+  text-align: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body{
+  background-color: #FFE4E1
+}
+
+.todoBox {
+  padding: 15px 0px 15px 0px;
+  background-color: #FCEEED;
+  width: 50%;
+  display: -webkit-box;
+  -webkit-box-pack: center;
+  -webkit-box-align: center;
+  position: absolute;
+  left: 25%;
+}
+
+.list {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin-top: 65px;
+  width: 50%;
+  -webkit-box-pack: center;
+  -webkit-box-align: center;
+  position: absolute;
+  left: 25%;
+}
+
+.listEntry {
+  padding-bottom: 12px;
+}
+
+.entryContainer {
+  /* width: 80%; */
+  height: 35px;
+  background: rgba(231, 236, 255, 0.34);
+  margin: auto;
+  padding: 10px;
+}
+
+.item{
+  width: 40%;
+  float: left;
+  height: 100%;
+  vertical-align: middle;
+}
+
+.time {
+  margin-left: 45%;
+  height: 100%;
+  vertical-align: middle;  
+}
+
+#durationTitle{
+  margin-left: 40%;
+}
+
+#itemSpace {
+  width: 200px;
+}
+#timeSpace {
+  width: 85px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
